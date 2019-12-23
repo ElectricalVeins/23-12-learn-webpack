@@ -2,16 +2,22 @@
   "name": "learnwebpack",
   "version": "1.0.0",
   "description": "testing of webpack project",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "homepage": "",
+  "keywords": [
+    "keyword"
+  ],
+  "private": true,
+  "homepage": "https://github.com/ElectricalVeins/23-12-learn-webpack.git",
+  "bugs": {
+    "url": "https://github.com/ElectricalVeins/23-12-learn-webpack/issues"
+  },
   "author": "Vladimir Ozirskiy",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.41.4"
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "lodash": "^4.17.15"
